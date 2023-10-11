@@ -29,6 +29,8 @@ int main() {
 void solve() {
     // code here
     int n = 0;
+    cin >> n;
+    
     vll arr(n);
     for(int i = 0; i < n; i++) {
         cin >> arr[i];
