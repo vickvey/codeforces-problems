@@ -55,22 +55,19 @@ double eps = 1e-12;
 
 void solve() {
     // code here
-    ll x = 0, y = 0, k = 0;
-    cin >> x >> y >> k;
-
-    // logic
-    if(x > y) {
-        // chest is beyond the key
-        cout << x << nl;
-    } else {
-        // chest is behind the key
-        ll diff = y - x;
-        if(y-x <= k) {
-            cout << y << nl;
-        } else {
-            cout << (2*y - (x+k)) << nl;
-        }
+    ll n = 0;
+    cin >> n;
+ 
+    map<ll, ll> mp;
+    for(auto i = 0; i<2*n; i++) {
+        ll x = 0;
+        cin >> x;
+        mp[x]++;
     }
+
+    ll ans = 0;
+    for()
+
 }
 
 // code here 
